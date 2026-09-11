@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">ComfyUI NVIDIA DLSS 5 Visual Enhancer</title>
+  <desc id="desc">A technical pipeline diagram showing native ComfyUI media passing through DLSS frame generation and neural rendering to produce enhanced video or images.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1518"/><stop offset="1" stop-color="#0a0d15"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#76b900"/><stop offset="0.55" stop-color="#57e6b1"/><stop offset="1" stop-color="#57b8ff"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#57e6b1"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="1198" height="278" rx="18" fill="url(#bg)" stroke="#2b3a46" stroke-width="2"/>
+  <rect x="1" y="1" width="8" height="278" rx="4" fill="url(#accent)"/>
+  <text x="42" y="47" fill="#76b900" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2">FLAGSHIP / GPU VIDEO PIPELINE</text>
+  <text x="42" y="82" fill="#f1f5f9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="750">ComfyUI NVIDIA DLSS 5 Visual Enhancer</text>
+  <text x="1155" y="55" text-anchor="end" fill="#71869a" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">NATIVE COMFYUI TYPES · DIAGNOSTIC OUTPUT</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <rect x="42" y="124" width="220" height="92" rx="10" fill="#101b24" stroke="#34495b"/>
+    <text x="62" y="151" fill="#71869a" font-size="13" letter-spacing="1.5">SOURCE / 01</text>
+    <text x="62" y="181" fill="#e8eef5" font-size="18" font-weight="700">VIDEO · IMAGE</text>
+    <text x="62" y="202" fill="#6f8295" font-size="14">native workflow input</text>
+
+    <path d="M277 170H322" stroke="#57e6b1" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="338" y="124" width="230" height="92" rx="10" fill="#102019" stroke="#527d39"/>
+    <text x="358" y="151" fill="#76b900" font-size="13" letter-spacing="1.5">ACCELERATE / 02</text>
+    <text x="358" y="181" fill="#eef7e8" font-size="18" font-weight="700">DLSS RUNTIME</text>
+    <text x="358" y="202" fill="#7fa174" font-size="14">GPU execution path</text>
+
+    <path d="M583 170H628" stroke="#57e6b1" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="644" y="124" width="230" height="92" rx="10" fill="#0f1d24" stroke="#2d6672"/>
+    <text x="664" y="151" fill="#57e6b1" font-size="13" letter-spacing="1.5">ENHANCE / 03</text>
+    <text x="664" y="181" fill="#e7f8f2" font-size="18" font-weight="700">FPS · SR · NR</text>
+    <text x="664" y="202" fill="#70968d" font-size="14">interpolate · upscale</text>
+
+    <path d="M889 170H934" stroke="#57b8ff" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="950" y="124" width="205" height="92" rx="10" fill="#101824" stroke="#31516e"/>
+    <text x="970" y="151" fill="#57b8ff" font-size="13" letter-spacing="1.5">RETURN / 04</text>
+    <text x="970" y="181" fill="#eaf4ff" font-size="18" font-weight="700">COMPOSABLE</text>
+    <text x="970" y="202" fill="#718ba2" font-size="14">save downstream</text>
+  </g>
+  <text x="42" y="250" fill="#687d90" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="1.1">FRAME INTERPOLATION  /  VIDEO UPSCALE  /  IMAGE UPSCALE</text>
+</svg>

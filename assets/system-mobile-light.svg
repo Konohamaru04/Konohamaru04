@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering system status</title>
+  <desc id="desc">Four active engineering domains: product systems, model layer, compute path, and open source.</desc>
+  <defs><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#148a63"/><stop offset="0.55" stop-color="#0969da"/><stop offset="1" stop-color="#6e40c9"/></linearGradient></defs>
+  <rect x="1" y="1" width="638" height="538" rx="18" fill="#ffffff" stroke="#c7d2df" stroke-width="2"/>
+  <text x="30" y="40" fill="#607286" font-family="ui-monospace, Consolas, monospace" font-size="14" letter-spacing="2">SYSTEM / ACTIVE SURFACES</text>
+  <circle cx="592" cy="35" r="5" fill="#148a63"/>
+  <path d="M30 64H610M30 177H610M30 290H610M30 403H610" stroke="#c7d2df"/>
+  <g font-family="ui-monospace, Consolas, monospace">
+    <text x="30" y="96" fill="#148a63" font-size="15">01 / PRODUCT</text><text x="30" y="130" fill="#17202b" font-size="23" font-weight="700">FULL-STACK</text><text x="305" y="130" fill="#607286" font-size="17">web · desktop · services</text>
+    <text x="30" y="209" fill="#0969da" font-size="15">02 / MODEL LAYER</text><text x="30" y="243" fill="#17202b" font-size="23" font-weight="700">AI SYSTEMS</text><text x="305" y="243" fill="#607286" font-size="17">training · agents · inference</text>
+    <text x="30" y="322" fill="#365fa8" font-size="15">03 / COMPUTE</text><text x="30" y="356" fill="#17202b" font-size="23" font-weight="700">GPU PIPELINES</text><text x="305" y="356" fill="#607286" font-size="17">video · vision · acceleration</text>
+    <text x="30" y="435" fill="#6e40c9" font-size="15">04 / OUTPUT</text><text x="30" y="469" fill="#17202b" font-size="23" font-weight="700">OPEN SOURCE</text><text x="305" y="469" fill="#607286" font-size="17">tools · docs · experiments</text>
+  </g>
+  <rect x="30" y="510" width="580" height="2" rx="1" fill="url(#line)"/>
+</svg>

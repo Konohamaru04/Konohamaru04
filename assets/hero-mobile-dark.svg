@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 650" role="img" aria-labelledby="title desc">
+  <title id="title">Amartya Deshmukh — Lead Engineer</title>
+  <desc id="desc">A dark mobile technical dashboard introducing Amartya Deshmukh and his focus on full-stack engineering, AI, and GPU computing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1118"/><stop offset="1" stop-color="#080b11"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#57e6b1"/><stop offset="0.52" stop-color="#57b8ff"/><stop offset="1" stop-color="#9a7cff"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#1b2a38"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="638" height="648" rx="22" fill="url(#bg)" stroke="#26384a" stroke-width="2"/>
+  <rect x="1" y="1" width="638" height="648" rx="22" fill="url(#grid)" opacity="0.4"/>
+  <path d="M1 70H639" stroke="#26384a"/>
+  <circle cx="30" cy="35" r="6" fill="#ff6b6b" opacity="0.8"/><circle cx="52" cy="35" r="6" fill="#f5c451" opacity="0.8"/><circle cx="74" cy="35" r="6" fill="#57e6b1" opacity="0.8"/>
+  <text x="103" y="41" fill="#8293a5" font-family="ui-monospace, Consolas, monospace" font-size="15">~/profile</text>
+  <text x="604" y="41" text-anchor="end" fill="#57e6b1" font-family="ui-monospace, Consolas, monospace" font-size="14">● ONLINE</text>
+  <text x="42" y="125" fill="#57e6b1" font-family="ui-monospace, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="3">LEAD ENGINEER / 01</text>
+  <text x="38" y="211" fill="#f4f7fb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="2">AMARTYA</text>
+  <text x="38" y="285" fill="#f4f7fb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="2">DESHMUKH</text>
+  <rect x="42" y="309" width="556" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="42" y="355" fill="#b9c5d1" font-family="ui-monospace, Consolas, monospace" font-size="19">FULL STACK  //  AI + ML</text>
+  <text x="42" y="385" fill="#b9c5d1" font-family="ui-monospace, Consolas, monospace" font-size="19">GPU COMPUTING  //  DEV TOOLS</text>
+  <text x="42" y="430" fill="#73869a" font-family="ui-monospace, Consolas, monospace" font-size="15">Building accelerated systems that ship.</text>
+  <g transform="translate(488 520)">
+    <circle r="78" fill="#0d1620" stroke="#26384a"/><circle r="56" fill="none" stroke="#57b8ff" stroke-dasharray="3 8"/><circle r="32" fill="none" stroke="#9a7cff"/>
+    <path d="M-56 0H56M0-56V56M-40-40L40 40M40-40L-40 40" stroke="#23384c"/>
+    <path d="M-56 0L-40-40L0-56L40-40L56 0L40 40L0 56L-40 40Z" fill="none" stroke="url(#accent)" stroke-width="2"/>
+    <circle r="8" fill="#57b8ff"/><g fill="#57e6b1"><circle cx="-56" r="4"/><circle cx="56" r="4"/><circle cy="-56" r="4"/><circle cy="56" r="4"/></g>
+  </g>
+  <text x="42" y="610" fill="#65788c" font-family="ui-monospace, Consolas, monospace" font-size="13">C# · PYTHON · TYPESCRIPT · CUDA</text>
+</svg>
