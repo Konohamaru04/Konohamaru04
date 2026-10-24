@@ -1,9 +1,5 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img alt="Animated glass-orb developer profile banner for Amartya Deshmukh — Lead Engineer, full-stack development, AI, and GPU computing" src="./assets/hero-animated.gif" width="700">
-  </picture>
+  <img src="./assets/hero-animated.gif" width="700" alt="Animated glass-orb banner for Amartya Deshmukh — Lead Engineer focused on full-stack development, AI, and GPU computing">
 </div>
 
 **Lead Engineer** building practical products at the intersection of full-stack development, AI/ML, GPU computing, and developer tooling. I focus on systems that are useful, measurable, and built to ship.
