@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img alt="Amartya Deshmukh — Lead Engineer specializing in full-stack engineering, AI, and GPU computing" src="./assets/hero-dark.svg" width="700">
+    <img alt="Animated glass-orb developer profile banner for Amartya Deshmukh — Lead Engineer, full-stack development, AI, and GPU computing" src="./assets/hero-animated.gif" width="700">
   </picture>
 </div>
 
