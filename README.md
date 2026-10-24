@@ -1,93 +1,47 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/hero-mobile-dark.svg">
-    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/hero-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img alt="Amartya Deshmukh — Lead Engineer working across full-stack systems, AI, and GPU computing" src="./assets/hero-dark.svg" width="100%">
+    <img alt="Amartya Deshmukh — Lead Engineer specializing in full-stack engineering, AI, and GPU computing" src="./assets/hero-dark.svg" width="700">
   </picture>
 </div>
 
-<br>
+**Lead Engineer** building practical products at the intersection of full-stack development, AI/ML, GPU computing, and developer tooling. I focus on systems that are useful, measurable, and built to ship.
 
-I’m a **Lead Engineer** building product systems where full-stack software meets AI infrastructure. My work spans developer tooling, local model runtimes, GPU-accelerated media, and the practical engineering required to ship them.
+## `01 / FOCUS`
 
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/system-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/system-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/system-light.svg">
-  <img alt="Engineering system status: full-stack products, AI systems, GPU pipelines, and open-source tools" src="./assets/system-dark.svg" width="100%">
-</picture>
-
-## `01 / OPERATING DOMAIN`
-
-- **Product engineering** — durable web and desktop applications, from interface architecture through backend services and deployment.
-- **Applied AI** — local inference, model training, agent workflows, and tools that make advanced models useful outside a notebook.
-- **Accelerated media** — GPU-first image and video pipelines built around measurable output, explicit runtime contracts, and real hardware constraints.
+- **Product engineering** — web, desktop, APIs, and maintainable software architecture.
+- **AI systems** — local inference, model training, and agent workflows.
+- **GPU acceleration** — image/video pipelines and native runtime integrations.
 
 ## `02 / TOOLCHAIN`
 
-**LANGUAGES**<br>
-`C#` · `Python` · `TypeScript` · `JavaScript` · `SQL`
-
-**APPLICATION SYSTEMS**<br>
-`.NET` · `ASP.NET` · `Angular` · `React` · `Node.js` · `Tauri` · `Electron`
-
-**AI + GPU**<br>
-`PyTorch` · `CUDA` · `OpenCV` · `ONNX Runtime` · `FFmpeg` · `ComfyUI` · `local LLM tooling`
-
-**DATA + DELIVERY**<br>
-`SQL Server` · `SQLite` · `Azure` · `Docker` · `GitHub Actions`
+**Languages:** `C#` · `Python` · `TypeScript` · `JavaScript` · `SQL`  
+**Apps:** `.NET` · `ASP.NET` · `Angular` · `React` · `Node.js` · `Tauri` · `Electron`  
+**AI + GPU:** `PyTorch` · `CUDA` · `OpenCV` · `ONNX Runtime` · `FFmpeg` · `ComfyUI`  
+**Data + Cloud:** `SQL Server` · `SQLite` · `Azure` · `Docker` · `GitHub Actions`
 
 ## `03 / FEATURED BUILDS`
 
-<a href="https://github.com/Konohamaru04/ComfyUI-NVIDIA-DLSS-Frame-Interpolation">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="./assets/dlss-pipeline-mobile-dark.svg">
-    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="./assets/dlss-pipeline-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/dlss-pipeline-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/dlss-pipeline-light.svg">
-    <img alt="Pipeline diagram for the ComfyUI NVIDIA DLSS 5 Visual Enhancer" src="./assets/dlss-pipeline-dark.svg" width="100%">
-  </picture>
-</a>
-
 ### [ComfyUI NVIDIA DLSS 5 Visual Enhancer](https://github.com/Konohamaru04/ComfyUI-NVIDIA-DLSS-Frame-Interpolation)
+Native NVIDIA DLSS processing for ComfyUI: frame interpolation, video/image upscaling, GPU runtime integration, encoding, and diagnostics.
 
-Native NVIDIA DLSS processing for ComfyUI: frame interpolation, video upscaling, and image upscaling exposed as composable nodes. The project connects GPU runtime integration to practical video workflows, including deterministic frame-rate conversion, encoding, audio retention, diagnostics, and experimental Linux support through Wine.
-
-`Python` · `NVIDIA DLSS` · `ComfyUI` · `FFmpeg` · `GPU video`
-
----
+`Python` · `NVIDIA DLSS` · `ComfyUI` · `FFmpeg`
 
 ### [Tiny-LLM](https://github.com/Konohamaru04/Tiny-LLM)
+A GPT-style language model built in PyTorch, from BPE tokenization and pretraining through fine-tuning, evaluation, and local inference.
 
-A compact GPT-style language model built from scratch in PyTorch, covering tokenizer training, pretraining, supervised fine-tuning, evaluation, and local inference. Its architecture explores modern small-model ideas including grouped-query attention, RoPE, RMSNorm, and sparse mixture-of-experts routing.
-
-`PyTorch` · `Transformers` · `BPE` · `CUDA` · `Model training`
-
----
+`PyTorch` · `Transformers` · `BPE` · `CUDA`
 
 ### [Computer-Use-Agent](https://github.com/Konohamaru04/Computer-Use-Agent)
+A local desktop agent for Ollama vision models, with a Tauri + React UI and a bounded **observe → plan → act → verify** execution loop.
 
-A local desktop-control agent for Ollama vision models. It turns natural-language tasks into a bounded **observe → plan → act → verify** loop, pairing a Tauri + React interface with a Python worker, validated actions, screenshots, and an MCP surface.
-
-`Python` · `Tauri` · `React` · `TypeScript` · `Ollama` · `MCP`
+`Python` · `Tauri` · `React` · `Ollama` · `MCP`
 
 ## `04 / ENGINEERING SIGNAL`
 
-```text
-INPUT   ambiguous product and systems problems
-METHOD  model the contract · isolate the bottleneck · measure the result
-OUTPUT  maintainable software that works on real machines
-```
+**Approach:** model the contract · isolate the bottleneck · measure the result · ship maintainable software.
 
-I’m most interested in work that crosses boundaries: UI and runtime, model and product, managed code and native acceleration. The through-line is practical systems thinking—understand the whole path, then make the critical path better.
+More projects and experiments → **[Explore my repositories](https://github.com/Konohamaru04?tab=repositories)**
 
-## `05 / OPEN SOURCE`
-
-Project work is the primary telemetry here. Browse the repositories, implementation notes, validation evidence, and active experiments directly on [GitHub](https://github.com/Konohamaru04?tab=repositories).
-
-<div align="center">
-  <sub>AMARTYA DESHMUKH · LEAD ENGINEER · BUILT WITH INTENT, NOT BADGES</sub>
-</div>
+<div align="center"><sub>AMARTYA DESHMUKH · LEAD ENGINEER · BUILT WITH INTENT</sub></div>
